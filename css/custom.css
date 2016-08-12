@@ -247,3 +247,7 @@ footer {
     text-align: center;
     margin: 40px 0 40px 0;
 }
+
+#tournament p {
+    font-size: 200%;
+}
