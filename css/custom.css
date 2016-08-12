@@ -251,3 +251,8 @@ footer {
 #tournament p {
     font-size: 200%;
 }
+
+#tournament a {
+    margin: 20px 20px;
+    font-size: 200%;
+}
