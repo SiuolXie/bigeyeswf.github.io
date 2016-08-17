@@ -233,13 +233,53 @@ footer {
 
 #leaderboard {
     position: relative;
-    top: 0;
-    left: 40%;
+    top: 40px;
+    left: 10%;
 }
 
-#leaderboard table tr td {
-    padding: 10px 40px 0 0;
+#leaderboard table {
+  margin: 20px 10px;
+  padding: 10px 40px 20px 40px;
+  border: solid 1px lightblue;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#leaderboard tr {
+  display: table-row;
+  text-align: center;
+  vertical-align: inherit;
+}
+
+#leaderboard tr:nth-child(even) {
+    background-color: #EEE;
+}
+
+#leaderboard th {
+    display: table-cell;
+    text-align: left;
+    vertical-align: inherit;
+    padding: 10px 70px 10px 20px ;
+    margin: 20px 40px 0 0;
+}
+
+#leaderboard td {
+    display: table-cell;
+    text-align: left;
+    vertical-align: inherit;
+    padding: 10px 70px 10px 20px;
     margin: 10px 40px 0 0;
+}
+
+#leaderboard a {
+  text-decoration: none;
+}
+
+#leaderboard a:hover {
+  text-decoration: none;
 }
 
 #tournament {
