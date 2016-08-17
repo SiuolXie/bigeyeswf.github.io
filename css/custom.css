@@ -127,7 +127,7 @@ p {
 }
 
 .btn-group-lg>.btn, .btn-lg {
-    margin-top: 20px;
+    margin: 20px 20px;
     border-radius: 0px;
 }
 
@@ -233,7 +233,7 @@ footer {
 
 #leaderboard {
     position: relative;
-    top: 40px;
+    top: 20%;
     left: 10%;
 }
 
